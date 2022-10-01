@@ -257,9 +257,16 @@ nav .container {
 }
 
 /* IMAGE */
+
+.section-3{
+  margin: 0 70px;
+}
+.section-3 .images {
+  margin-right: 70px;
+}
 .section-3 .images img {
   object-fit: cover;
-  width: 100%;
+  width: 90%;
 }
 
 /* CONTENT */
@@ -299,7 +306,7 @@ nav .container {
 .section-3 .content h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 57px;
+  font-size: 47px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -452,14 +459,54 @@ input[type="button"] {
   padding-left: 70px;
 }
 
+/* section 6 */
+
+#section6 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#section6 h1 {
+  font-size: 57px;
+  line-height: 77px;
+}
+
+#section6 button {
+  background: #00557d;
+  padding: 16px, 24px, 16px, 24px;
+  border-radius: 10px;
+  width: 142px;
+  height: 56px;
+  border: none;
+  color: #fff;
+}
+
 /* Section 7  */
+
+/* #section7 {
+  width: 100%;
+  height: 100vh;
+}
+
+#section7 p {
+  font-size: 20px;
+  line-height: 60px;
+  letter-spacing: 0.25px;
+  color: #212121;
+} */
+
+/*============================================ */
 
 .sectionSeven > div:first-of-type {
   position: relative;
   left: 17rem;
 }
 
-.sectionSeven > div:last-of-type {
+.sectionSeven .sectionSeven > div:last-of-type {
   display: grid;
   grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(3, auto);
@@ -533,6 +580,61 @@ input[type="button"] {
   top: 30px;
   background: #00557d;
   color: white;
+}
+
+/* footer */
+
+#footer {
+  background: #00557d;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #fff;
+  padding: 45px 0;
+}
+
+#footer h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+#footer .foot {
+  text-align: left;
+}
+
+#footer .foot ul li {
+  list-style: none;
+  padding: 5px;
+  font-size: 16px;
+  left: 0;
+}
+
+#footer .foot input {
+  padding: 11px, 16px, 11px, 16px;
+  border-radius: 10px;
+  width: 314px;
+  height: 54px;
+}
+
+#footer .foot input::placeholder {
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+#footer .foot button {
+  background: #00557d;
+  color: #fff;
+  padding: 4px 21px;
+  width: 108px;
+  height: 32px;
+  transform: translateX(-120px);
+  border-radius: 10px;
+  border: none;
+}
+
+#footer #foots {
+  text-align: left;
 }
 /* ====================Media ========================================*/
 
