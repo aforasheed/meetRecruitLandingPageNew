@@ -22,49 +22,51 @@
       referrerpolicy="no-referrer"
     />
     <style>
-      a {
-        font-size: 14px;
-        font-weight: 400;
-        text-decoration: none;
-        color: #00557D;
-      }
-      p{
-        color: #00557D;
-      }
-      input {
-        color: #fff;
-      }
       @media screen and (min-width: 996px) {
         .form {
           margin: 60px 350px;
         }
       }
+      p {
+        color: #00557D;
+        font-size: 20px;
+        font-weight: 400;
+      }
+
+      .code a{
+        font-size: 14px;
+        text-decoration: none;
+        color: #00557D;
+      }
     </style>
-    <title>Forgot Password?</title>
+    <title>Email Code</title>
   </head>
   <body>
-    <section class="forgotPassword-section">
+    <section class="resetPassword-section">
       <div class="container-fluid">
         <div class="row" style="height: 100vh">
           <div class="col-md-12 mt-5">
             <div class="form">
-              <h1>Forgot Password?</h1>
-              <p>Please enter email associated with your account</p>
+              <h1>Check your email!</h1>
+              <p>Please enter 6 digit code sent to you</p>
               <form>
                 <div class="row">
-                  <div class="mb-4">
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Enter email"
-                    />
+                  <div class="my-4">
+                    <img class="img-fluid mx-2" src="/public/img/Line 6.png" alt="">
+                    <img class="img-fluid mx-2" src="/public/img/Line 6.png" alt="">
+                    <img class="img-fluid mx-2" src="/public/img/Line 6.png" alt="">
+                    <img class="img-fluid mx-2" src="/public/img/Line 6.png" alt="">
+                    <img class="img-fluid mx-2" src="/public/img/Line 6.png" alt="">
+                    <img class="img-fluid " src="/public/img/Line 6.png" alt="">
+                    
                   </div>
                 </div>
-                <div class="my-3">
+                <div class="my-3 text-center">
                   <input type="submit" value="Continue" class="btn btn-primary w-100" />
-                </div>
-                <div class="text-center mt-3">
-                  <a href="#">Remember password?<strong>login</strong></a>
+                  <div class="code mt-4">
+                    <a href="#">Didnt get code<strong>Resend!</strong></a>
+                  </div>
+                 
                 </div>
               </form>
             </div>
