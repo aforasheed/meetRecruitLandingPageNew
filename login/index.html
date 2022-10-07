@@ -24,41 +24,45 @@
     <title>Login</title>
   </head>
   <body>
-    <section id="signup">
-      <div id="text">
-        <h1>Welcome!</h1>
-        <p>We’ve missed you.</p>
-        <a href="/index.html"><img src="/public/img/MEETRECRUITlogo.png" alt="" /></a>
-      </div>
-      <div id="form">
-        <div id="width">
-          <h1>Login</h1>
-          <p>Sign in to continue</p>
-          <form action="#" class="forms">
-            <label>Email</label><br />
-            <input type="email" placeholder="Enter email" /> <br /><br />
-            <label>Password</label><br />
-            <input type="password" placeholder="Enter password" /><br /><br />
-            <button id="signups" type="submit">Sign Up</button><br />
-            <a href="/forgetPass/index.html">Forgot password?</a>
-          </form>
-          <div id="center">
-            <p>Or continue with</p>
-            <div id="icon">
-              <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a>
-              <a
-                href="https://www.linkedin.com/company/meetrecruit/"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-              <a
-                href="https://m.facebook.com/story.php?story_fbid=pfbid0LS4uF52KisyzEZSwB3oaLuqZwBY6MR44i9Fws1G7HvPmHSeJEMV7Khse3V39Yu8gl&id=103218479213902"
-                target="_blank"
-                ><i class="fa-brands fa-facebook"></i></a
-              ><br />
-              <a class="acc" href="/signUp/index.html"
-                >Already have an account? <span>Sign up</span></a
-              >
+    <section class="Login-section">
+      <div class="container-fluid">
+        <div class="row" style="height: 100vh">
+          <div class="col-md-5 text-center" style="background: #55B1DF;">
+            <div class="welcome">
+                <h1 class="mb-3 text-dark">Welcome</h1>
+            <p class="text-dark">We’ve missed you.</p>
+            <div class="logo-img">
+                <img src="../public/img/MEETRECRUITlogo.png" class="img-fluid w-50" alt="">
+            </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="form">
+              <h1>Login</h1>
+              <p>Sign in to continue</p>
+              <form>
+                <div class="row">
+                         <div class="mb-4">
+                          <input
+                              type="email"
+                              class="form-control"
+                              placeholder="Enter email"
+                            />
+                         </div>             
+                    <div class="mb-4">
+                      <input
+                        type="password"
+                        class="form-control"
+                        placeholder="Enter password"
+                      />
+                    </div>
+                </div>
+                    <div class="my-3">
+                        <input type="submit" value="Continue" class="btn btn-primary w-100">
+                    </div>         
+                <p class="forgot">forgot password</p>
+                <h5 class="text-center text-primary">or continue with</h5>
+            </form>
             </div>
           </div>
         </div>
